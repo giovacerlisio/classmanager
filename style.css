@@ -1,0 +1,111 @@
+body {
+    background-color: #ffffff;
+  }
+  
+  .testo{
+    color: #00c3ff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40;
+    text-shadow: 2px 2px 9px #cecece;;
+    font-style: bold;
+    font-weight: bold;
+  
+  }
+
+  .image{
+    text-align: center;
+    margin-top: 170px;
+  }
+  
+  .topnav {
+      background-color: #0093ad;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      -webkit-box-shadow: 1px 1px 10px 0px #000000;
+      -moz-box-shadow: 1px 1px 10px 0px #000000;
+      -o-box-shadow: 1px 1px 10px 0px #000000;
+      box-shadow: 1px 1px 10px 0px #000000;
+    }
+    
+  
+  .topnav a {
+    font-family: 'Josefin Sans', sans-serif;
+      float: left;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 15px 15px;
+      text-decoration: none;
+      font-size: 28px;
+      font-style: bold;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #000000;
+    }
+    
+  
+  .topnav a:hover {
+      background-color: rgb(255, 255, 255);
+      color: #00c3ff;
+    }
+    
+  
+  .topnav a.active {
+      background-color: #00c3ff;
+      color: white;
+    }
+  
+    footer {
+      text-align: center;
+      background-color: #0093ad;
+      color: #ffffff;
+      font-family: 'Josefin Sans', sans-serif;
+      position: fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      font-weight: bold;
+      font-size: 30;
+      text-shadow: 2px 2px #000000;;
+      -webkit-box-shadow: 1px 1px 10px 0px #000000;
+      -moz-box-shadow: 1px 1px 10px 0px #000000;
+      -o-box-shadow: 1px 1px 10px 0px #000000;
+      box-shadow: 1px 1px 10px 0px #000000;
+    }
+  
+  .anim{
+    position: relative;
+    animation: animone 3s;
+  }
+  
+  @keyframes animone {
+    from {top: 400px;}
+    to {top: 0px;}
+    
+  }
+
+  .icone{
+    text-align: center;
+}
+
+.mybutton {
+    background:    #00cbff;
+    border-radius: 1000px;
+    padding:       19px 20px;
+    color:         #ffffff;
+    display:       inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24;
+    text-align:    center;
+    text-decoration: none;
+}
+
+.mybutton:hover {
+    color: #0093ad;
+}
+
+.logoform {
+  text-align: center;
+}

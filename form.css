@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+  background-color: white;
+}
+
+.container{
+	background: #2d3e3f;
+	width: 350px;
+	height: 400px;
+	padding-bottom: 10px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+     padding: 30px 30px 20px 20px;
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.fl{
+	float: left;
+  width: 110px;
+  line-height: 35px;
+}
+
+.fontLabel{
+  color: white;
+}
+
+.fr{
+	float: right;
+}
+
+.clr{
+	clear: both;
+}
+
+.box{
+	width: 360px;
+	height: 50px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.textBox{
+	height: 35px;
+	width: 190px;
+	border: none;
+  padding-left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.new{
+  float: left;
+}
+
+.iconBox{
+	height: 35px;
+	width: 40px;
+	line-height: 38px;
+	text-align: center;
+  background: #00c3ff;
+}
+
+.radio{
+	color: white;
+	background: #0093ad;
+	line-height: 38px;
+}
+
+.terms{
+	line-height: 35px;
+	text-align: center;
+	background: #0093ad;
+	color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.submit{
+	float: right;
+	border: none;
+	color: white;
+	width: 110px;
+	height: 35px;
+    font-size: 20;
+	background: #00c3ff;
+	text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+}
+  
